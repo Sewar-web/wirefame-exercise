@@ -26,32 +26,57 @@ nav{
     padding: 0 40px;
 }
 
-main img{
-    margin-right: 15px;
+main nav  img{
+    margin-right: 30px;
+}
+main
+{
+    width: 960px;
 }
  article
 {
-    text-align: right;
-    background-color: lightblue;
+    /* background-color: lightblue;
     width: 450px;
     height: 250px;
     overflow: scroll;
     float: right;
-    color: rgb(41, 8, 190);
-}   
+    color:black;
+    font-style: italic; */
+    text-align: justify;
+    overflow: scroll;
+    width: 450px;
+    height: 250px;
+    /* height: 288px; */
+    float: right;
+    /* padding-left: 25px; */
+}  
+
+#img2
+{
+    width: 50% ;
+} 
 button
 {
 
-   float: right;
-    background-color: black;
+     background-color: black;
     color: wheat;
-    padding: 10px;
-
+    float: right;
+    padding: 9px 29px; 
+    border-radius: inherit;
+    margin: auto;
+    text-align: center  ;
+    margin-top: -100px;
+    margin : -138px 312px
 } 
+button:hover
+{
+background-color: rgb(129, 125, 126);
+}
 footer
 {
-    width: 960px;
-    background-color: grey;
-    padding:  30px;
+    padding:53px;
+    background: rgb(77, 75, 75);
+    margin: 25px -40px;
 }
+
     
